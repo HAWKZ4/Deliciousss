@@ -20,6 +20,7 @@ const Recipe = () => {
 
   useEffect(() => {
     fetchDetails();
+    // eslint-disable-next-line
   }, [params.name]);
 
   return (
